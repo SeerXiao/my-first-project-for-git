@@ -20,7 +20,7 @@
     margin: 10px auto;
     cursor: pointer;
     display: block;
-    font: 14px/50px Tahoma;
+    font: 14px/50px var(--main-font);
     transition: all 0.18s ease-in-out;
     border: 1px solid var(--main-color);
     background: var(--main-bg-gradient) top right/500% 500%;

@@ -38,7 +38,7 @@
     margin: 5px 0;
     width: 80px;
     height: 20px;
-    font: 14px/20px Tahoma;
+    font: 14px/20px var(--main-font);
 }
 
 .followUnfolowC {

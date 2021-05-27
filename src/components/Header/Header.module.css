@@ -55,7 +55,7 @@
 
 .actionButton {
     height: 24px;
-    font: 14px/24px Tahoma;
+    font: 14px/24px var(--main-font);
 }
 
 .autorizedUser {
@@ -64,7 +64,7 @@
 
 .autorizedUserLogin {
     display: inline-block;
-    font: 20px/48px Tahoma;
+    font: 20px/48px var(--main-font);
     color: var(--main-color);
     vertical-align: bottom;
 }

@@ -27,7 +27,7 @@
 .pushButton {
     margin: 0;
     height: 20px;
-    font: 14px/20px Tahoma;
+    font: 14px/20px var(--main-font);
 }
 
 .pagesContainer {
@@ -96,7 +96,7 @@
     margin: 0;
     height: 20px;
     width: 20px;
-    font: 14px/20px Tahoma;
+    font: 14px/20px var(--main-font);
 }
 
 .goToPageButtonContainer {
