@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-first-project-for-git/static/css/main.84309e82.chunk.css",
+    "main.js": "/my-first-project-for-git/static/js/main.1ba26aff.chunk.js",
+    "main.js.map": "/my-first-project-for-git/static/js/main.1ba26aff.chunk.js.map",
+    "runtime-main.js": "/my-first-project-for-git/static/js/runtime-main.3c13919c.js",
+    "runtime-main.js.map": "/my-first-project-for-git/static/js/runtime-main.3c13919c.js.map",
+    "static/js/2.2f67aeb5.chunk.js": "/my-first-project-for-git/static/js/2.2f67aeb5.chunk.js",
+    "static/js/2.2f67aeb5.chunk.js.map": "/my-first-project-for-git/static/js/2.2f67aeb5.chunk.js.map",
+    "static/js/3.29a66fd2.chunk.js": "/my-first-project-for-git/static/js/3.29a66fd2.chunk.js",
+    "static/js/3.29a66fd2.chunk.js.map": "/my-first-project-for-git/static/js/3.29a66fd2.chunk.js.map",
+    "index.html": "/my-first-project-for-git/index.html",
+    "static/css/main.84309e82.chunk.css.map": "/my-first-project-for-git/static/css/main.84309e82.chunk.css.map",
+    "static/js/2.2f67aeb5.chunk.js.LICENSE.txt": "/my-first-project-for-git/static/js/2.2f67aeb5.chunk.js.LICENSE.txt",
+    "static/media/Preloader.6165cc04.svg": "/my-first-project-for-git/static/media/Preloader.6165cc04.svg",
+    "static/media/logo2.c0bcf686.png": "/my-first-project-for-git/static/media/logo2.c0bcf686.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c13919c.js",
+    "static/js/2.2f67aeb5.chunk.js",
+    "static/css/main.84309e82.chunk.css",
+    "static/js/main.1ba26aff.chunk.js"
+  ]
+}
