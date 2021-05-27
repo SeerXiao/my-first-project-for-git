@@ -1,0 +1,36 @@
+.wrapper {
+    width: 100%;  
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+    
+    
+}
+
+.formContainer {
+    margin: 100px auto;
+}
+
+.logAndRem button{
+    display: inline-block;
+}
+
+.checkboxWrapper {
+    width: fit-content;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.checkbox {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+}
+
+.submitButton {
+    margin: 40px auto;
+}

@@ -1,0 +1,48 @@
+.wrapper {
+    width: 100%;
+    padding: 5px 0px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+
+    border: var(--main-color) 1px solid;
+}
+
+.container {
+    padding: 10px;
+    
+}
+
+.row {
+    height: 100%;
+    margin: 10px auto;
+    padding: 1px 5px;
+
+    border: var(--main-color) 1px solid;
+    border-radius: 15px;
+}
+
+.row h4 {
+    margin: 10px;
+}
+
+
+.nameRow {
+    float: left;
+    width: 120px;
+}
+
+.valueRow {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.nameContactRow {
+    display: inline-block;
+    text-align: left;
+    margin-left: 40px;
+    
+    width: 80px;
+}
+

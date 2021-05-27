@@ -1,0 +1,46 @@
+.wrapper {
+    max-height: 180px;
+    max-width: 100%;
+
+    margin: 20px auto;
+    padding: 15px 20px;
+
+    border-radius: 999px;
+    background: var(--main-bg-gradient) top right/500% 500%;
+    color: var(--main-color);
+    background-position: bottom left;
+}
+
+.container { 
+    margin: 0 auto;
+    border-radius: 999px;
+    background-color: white;
+
+    text-align: left;
+    display: flex;
+
+}
+
+.imgContainer img {
+    max-height: 100px;
+    max-width: 100px;
+    margin: 5px;
+    vertical-align: middle;
+    border-radius: 999px ;
+}
+
+.descriptionContainer {
+    display: block;
+    margin-left: 20px;
+}
+
+.followUnfolowB {
+    margin: 5px 0;
+    width: 80px;
+    height: 20px;
+    font: 14px/20px Tahoma;
+}
+
+.followUnfolowC {
+    
+}

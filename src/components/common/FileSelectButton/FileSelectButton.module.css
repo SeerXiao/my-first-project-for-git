@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.input {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+      }
+
+.chous {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+    display: block;
+    font: 14px/50px Tahoma;
+    transition: all 0.18s ease-in-out;
+    border: 1px solid var(--main-color);
+    background: var(--main-bg-gradient) top right/500% 500%;
+    color: var(--main-color);
+}
+
+.loading {
+    cursor: default;
+    border: 1px solid rgb(87, 87, 87);
+    color: white;
+    background: rgb(87, 87, 87);
+}
+
+.chous:hover {
+    color: white;
+    background-position: bottom left;
+};
+
+
+
+

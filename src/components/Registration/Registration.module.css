@@ -1,0 +1,19 @@
+.wrapper {
+    width: 100%;  
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.formContainer {
+    margin: 100px auto;
+}
+
+.submitButton {
+    margin: 40px auto;
+}
+
+
+

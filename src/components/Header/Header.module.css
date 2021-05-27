@@ -1,0 +1,76 @@
+.wrapper {
+    grid-area: header;
+    max-height: 48px;
+    background-color: var(--main-bg-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+    min-width: 430px;
+    padding: 0 15px;
+
+}
+
+.logoWrapper{
+    margin: 0;
+    height: 48px;
+}
+
+.logoWrapper img {
+    margin-top: 4px;
+    height: 40px;
+    width: 40px;
+}
+
+.logo {
+    margin: 4px 10px;
+    vertical-align: top;
+    display: inline-block;
+
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+.actionContainer {
+    height: 48px;
+    width: 200px;
+    
+}
+
+.link {
+    margin: 0 10px;
+    width: 80px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.last{
+    margin-right: 0;
+    float: right;
+}
+
+.actionButton {
+    height: 24px;
+    font: 14px/24px Tahoma;
+}
+
+.autorizedUser {
+    text-align: right;
+}
+
+.autorizedUserLogin {
+    display: inline-block;
+    font: 20px/48px Tahoma;
+    color: var(--main-color);
+    vertical-align: bottom;
+}
+
+.logout {
+    margin: 0 10px;
+    display: inline-block;
+    width: 80px;
+}

@@ -1,0 +1,98 @@
+.wrapper {
+    width: 100%;
+    padding: 5px 0px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+
+    border: var(--main-color) 1px solid;
+}
+
+.container {
+    padding: 10px;
+    
+}
+
+.row {
+    height: 100%;
+    margin: 10px auto;
+    padding: 1px 5px;
+
+    border: var(--main-color) 1px solid;
+    border-radius: 10px;
+}
+
+.nameRow {
+    float: left;
+    width: 120px;
+}
+
+.valueRow {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.inputField {
+    display: block;
+    margin: 1px auto;
+    height: 5px;
+       
+}
+
+.inputWrapper {
+    margin: 0 auto;
+    padding: 1px 0;
+    width: 300px;
+    border-radius: 200px; 
+    text-align: center;
+}
+
+.checkboxField {
+    display: block;
+    margin: 1px auto;
+    height: 20px;
+    width: 20px;      
+}
+
+.checkboxWrapper {
+    margin: 0 auto;
+    padding: 1px 0;
+    width: 40px;
+    border-radius: 200px; 
+    text-align: center;
+}
+
+.textareaField {
+    display: block;
+    margin: 1px auto;
+    height: 50px;
+    width: 260px;      
+}
+
+.textareaWrapper {
+    margin: 0 auto;
+    padding: 2px 0;
+    width: 300px;
+    border-radius: 200px; 
+    text-align: center;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+.contact h4 {
+    margin: 10px;
+}
+
+.contactsName {
+    margin-left: 20px;
+}
+
+.contactsValue{
+}
+
+.formControlStyle {
+    margin: 5px auto;
+}

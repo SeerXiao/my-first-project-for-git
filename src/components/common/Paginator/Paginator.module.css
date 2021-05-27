@@ -1,0 +1,106 @@
+.wrapper {
+    max-width: 600x;
+    margin: 0 auto 0 0; 
+}
+
+.container {
+    padding-left: 0;
+    
+}
+
+.button {
+    display: inline-block;
+    margin: 10px auto;
+    width: 50px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.left {
+    margin: 0 10px;
+}
+
+.rigth {
+    margin: 0 10px;
+}
+
+.pushButton {
+    margin: 0;
+    height: 20px;
+    font: 14px/20px Tahoma;
+}
+
+.pagesContainer {
+    display: inline-block;
+
+    width: 65%;
+    min-width: 350px;
+
+    margin: 10px auto;
+    vertical-align: middle;
+    
+    background-color: white;
+    padding: 5px;
+
+    border-radius: 999px;
+}
+
+.pages {
+    display: flex;
+    flex-wrap: nowrap;   
+}
+
+.page {
+    min-width: 20px;
+    text-align: center;
+    padding: 0 2px;
+    font-size: 12px;
+    font-weight: 700;
+    border: transparent;
+    border-radius: 20px;
+    margin: auto;
+    cursor: pointer;
+
+    background: var(--main-bg-gradient) top right/500% 500%;
+    color: var(--main-color);
+}
+
+.page:hover {
+    color: white;
+    background-position: bottom left;
+}
+
+.page.selectedPage {
+    color: white;
+    background-position: bottom left;
+}
+
+.goToPageContainer {
+    vertical-align: middle;
+    margin: 10px auto;
+    display: inline-block;
+    min-width: 80px;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 999px;
+}
+
+.goToPageContainer input {
+    width: 50px;
+    display: inline-block;
+    outline: none;
+    border: solid #3EC97A 2px;
+}
+
+.goToPageButton {
+    margin: 0;
+    height: 20px;
+    width: 20px;
+    font: 14px/20px Tahoma;
+}
+
+.goToPageButtonContainer {
+    margin-left: 10px; 
+    display: inline-block;
+    width: 20px;
+}

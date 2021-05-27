@@ -1,0 +1,12 @@
+.preloaderWrapper {
+    height: 100%;
+    max-height: 700px;
+    width: 100%;    
+}
+
+.preloaderWrapper  img {
+    height: 100%;
+    width: 100;
+    margin: 0 auto;
+    display: block;
+}

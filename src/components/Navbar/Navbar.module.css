@@ -1,0 +1,38 @@
+.wrapper {
+    grid-area: nav;
+    
+    background-color: var(--main-bg-color);
+}
+
+.container {
+    text-align: left;
+    padding: 5px 0;
+}
+
+.item {
+    padding-left: 0px;
+    text-align: center;
+
+    border-radius: 10px;
+    background: var(--main-bg-gradient) top right/500% 500%;
+    color: var(--main-color);
+    background-position: bottom left;
+
+}
+
+.linkWrapepr {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.item a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.activeLink {
+    text-decoration: none;
+}
+
