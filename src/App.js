@@ -2,7 +2,7 @@ import './App.css';
 import {compose} from 'redux';
 import HeaderContainer from './components/Header/HeaderContainer';
 import Navbar from './components/Navbar/Navbar';
-import { Route, Switch, withRouter } from 'react-router';
+import { Redirect, Route, Switch, withRouter } from 'react-router';
 import ProfileContainer from './components/Profile/ProfileContainer';
 import News from './components/News/NewsContainer';
 import Blog from './components/Blog/Blog';
@@ -40,6 +40,7 @@ function App(props) {
         
         <div className = 'app-wrapper-content'>
           <Switch>
+            <Route exact path = '/' render = {() => <Redirect to = '/profile'/>} />
             <Route path = '/profile/:userId?' render = {() => <ProfileContainer />} />
             <Route path = '/users' render = {() => <UsersContainer />} />
             <Route path = '/news' render = {() => <News />} />
