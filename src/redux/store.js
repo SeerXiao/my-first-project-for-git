@@ -5,6 +5,7 @@ import { reducer as formReducer } from 'redux-form'
 import { applyMiddleware, combineReducers, createStore } from 'redux';
 import appReducer from './appReducer/app-reducer';
 import usersReducer from './usersReducer/users-reducer';
+import newsReducer from './newsReducer/news-reducer';
 
 
 
@@ -14,6 +15,7 @@ let reducers = combineReducers ({
     auth: authReducer,
     app: appReducer,
     users: usersReducer,
+    news: newsReducer
 });
 
 

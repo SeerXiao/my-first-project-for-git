@@ -1,31 +1,35 @@
+import PushButton from '../../common/PushButton/PushButton';
 import style from './Post.module.css';
 
 
-const Post = (props) => {
-
-    
+const Post = ({id, title, text, date, hints, creator, imgUrl, srcUrl}) => {
 
     return (
         <div className = {style.wrapper}>
             <div className = {style.container}>
                 <div className = {style.imgContainer} >
-                    {/* <ImageSlyder images = {[
-                        {src: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg', id: 1},
-                        {src: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg', id: 2}
-                    ]} /> */}
+                    <img src = {imgUrl} alt = 'post image'/>
                 </div>
                 
                 <div className = {style.description}>
                     <div className = {style.additionalInfo}>
-
+                        <h2>
+                            {title}
+                        </h2>
+                        <p>
+                            <span>creator: {creator}</span>{' '}
+                            <span>date: {date}</span> {' '}
+                            <span>hints: {hints}</span>  
+                        </p>
                     </div>
                     <div className = {style.text}>
-                        
+                        {text}
                     </div>
                 </div>
-                <button>
-                    Read more
-                </button>
+                <div className = {style.readMore}>
+                    <PushButton text = 'Read more' styleMod = {style.actionButton}/>
+                </div>
+                
             </div>
         </div>
     )
