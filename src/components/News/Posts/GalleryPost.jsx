@@ -1,14 +1,18 @@
 import PushButton from '../../common/PushButton/PushButton';
 import style from './Post.module.css';
+import creatorIcon from './../../../assets/image/icons/user.svg';
+import calendarIcon from './../../../assets/image/icons/calendar.svg';
+import eyeIcon from './../../../assets/image/icons/eye.svg';
+import ImageSlyder from '../../common/ImageSlyder/ImageSlyder';
 
+const GalleryPost = ({id, title, text, date, hints, creator, imgUrl, srcUrl}) => {
 
-const Post = ({id, title, text, date, hints, creator, imgUrl, srcUrl}) => {
 
     return (
         <div className = {style.wrapper}>
             <div className = {style.container}>
-                <div className = {style.imgContainer} >
-                    <img src = {imgUrl} alt = 'post image'/>
+                <div className = {style.imgContainer} >                 
+                    <ImageSlyder img = {imgUrl} style = {style}/>
                 </div>
                 
                 <div className = {style.description}>
@@ -17,9 +21,9 @@ const Post = ({id, title, text, date, hints, creator, imgUrl, srcUrl}) => {
                             {title}
                         </h2>
                         <p>
-                            <span>creator: {creator}</span>{' '}
-                            <span>date: {date}</span> {' '}
-                            <span>hints: {hints}</span>  
+                            <span><img src={creatorIcon} alt = "creator" /> {creator}</span>{' '}
+                            <span><img src={calendarIcon} alt = "calendar" /> {date}</span> {' '}
+                            <span><img src={eyeIcon} alt = "hints" /> {hints}</span>  
                         </p>
                     </div>
                     <div className = {style.text}>
@@ -36,4 +40,5 @@ const Post = ({id, title, text, date, hints, creator, imgUrl, srcUrl}) => {
 };
 
 
-export default Post;
+
+export default GalleryPost;

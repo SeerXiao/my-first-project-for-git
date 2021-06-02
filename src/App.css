@@ -10,7 +10,8 @@
 }
 
 .app-wrapper {  
-  background-color: var(--main-bg-color); 
+  background-color: var(--main-bg-color);
+  width: 100%; 
 }
 
 .app-wrapper-content {
@@ -34,4 +35,13 @@
     grid-template-columns: 154px 1fr;
     grid-template-rows: minmax(1000px, 1fr) 48px;
   
+}
+
+@media screen and (max-width: 600px) {
+  .app-container {
+    grid-template-areas: 
+    "content"
+    "foot";
+    grid-template-columns: 1fr;
+  }
 }

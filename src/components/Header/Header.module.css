@@ -3,6 +3,7 @@
     max-height: 48px;
     background-color: var(--main-bg-color);
     border-bottom: 1px solid var(--main-color);
+    min-width: 380px;
 }
 
 .container {
@@ -10,7 +11,7 @@
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1000px;
-    min-width: 430px;
+    min-width: 460px;
     padding: 0 15px;
 
 }
@@ -32,7 +33,7 @@
     display: inline-block;
 
     color: var(--main-color);
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .actionContainer {
@@ -74,3 +75,16 @@
     display: inline-block;
     width: 80px;
 }
+
+@media screen and (max-width: 460px) {
+    .container {
+        min-width: 380px;
+        padding: 0 5px;
+    }
+
+    
+
+    .autorizedUser {
+        font-size: 22px;
+    }
+  }

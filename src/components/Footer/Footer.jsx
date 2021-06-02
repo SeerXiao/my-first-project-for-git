@@ -1,8 +1,11 @@
 import style from './Footer.module.css';
-import vk from './../../assets/image/icons/vk.svg';
-import gmail from './../../assets/image/icons/gmail.svg';
-import mailru from './../../assets/image/icons/mailru.svg';
+import vk from './../../assets/image/icons/social/vk.svg';
+import gmail from './../../assets/image/icons/social/gmail.svg';
+import mailru from './../../assets/image/icons/social/mailru.svg';
 import phone from './../../assets/image/icons/phone.svg';
+import instagram from './../../assets/image/icons/social/instagram.svg';
+import fb from './../../assets/image/icons/social/fb.svg';
+
 
 const Footer = (props) => {
     return (
@@ -13,17 +16,27 @@ const Footer = (props) => {
                 
                 <div className = {style.sites}>
                     <span className = {style.site}>
-                        <a href = '#'>
+                        <a href = 'https://vk.com/danila.shishkin' target = '_blank'>
                             <img src = {vk}  alt = "vk" />
                         </a>
                     </span>
                     <span className = {style.site}>
-                        <a href = '#'>
+                        <a href = 'https://www.instagram.com' target = '_blank'>
+                            <img src = {instagram}  alt = "instagram" />
+                        </a>
+                    </span>
+                    <span className = {style.site}>
+                        <a href = 'https://www.facebook.com' target = '_blank'>
+                            <img src = {fb}  alt = "fb" />
+                        </a>
+                    </span>
+                    <span className = {style.site}>
+                        <a href = '#' target = '_blank'>
                             <img src = {gmail}  alt = "gmail" />
                         </a>
                     </span>
                     <span className = {style.site}>
-                        <a href = '#'>
+                        <a href = '#' target = '_blank'>
                             <img src = {mailru}  alt = "mailru" />
                         </a>
                     </span>

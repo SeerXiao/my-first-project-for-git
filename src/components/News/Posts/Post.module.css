@@ -8,30 +8,57 @@
     padding: 10px;
     border: var(--main-color) 1px solid;
     border-radius: 15px;
-    
 }
 
 .imgContainer {  
     
 }
 
-.imgContainer img{
+.imgContainer img {
     border-radius: 15px;
+    width: 100%;    
+    height: 100%;
+    object-fit: cover;    
+}
+
+.slider div {
+    background-color: white;
+    border-radius: 15px;
+    max-height: 300px;
+}
+
+.slider img {
     width: 100%;    
     height: 100%;
     object-fit: cover;  
 }
 
 .additionalInfo h2 {
-    margin: 0;
+    margin: 3px 0;
+    font-weight: 700;
+    font-size: 20px;
 }
 
-.additionalInfo p {
-    margin: 5px 0;
+.additionalInfo p {  
+    margin: 0;
+    font-size: 12px;
+    color: #8596A9;
+}
+
+.additionalInfo span {
+    margin-right: 15px;  
+}
+
+.additionalInfo img {
+    width: 12px;
+    height: 12px;
+    padding-right: 2px;
+    vertical-align: -15%;
 }
 
 .text {
-    
+    word-wrap: break-word;
+   
 }
 
 .readMore {

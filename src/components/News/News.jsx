@@ -1,13 +1,21 @@
+import cn from 'classnames';
 import style from './News.module.css';
-import Post from './Posts/Post';
+import AudioPost from './Posts/AudioPost';
+import GalleryPost from './Posts/GalleryPost';
+import StandartPost from './Posts/StandartPost';
+import VideoPost from './Posts/VideoPost';
+
 
 
 const News = (props) => {
 
     const posts = props.posts.map (p => {
         return (
-            <div key = {p.id + 'p'} className = {style.item}>
-                <Post {...p}  />
+            <div key = {p.id + 'p'} className = {cn(style.item,{[style[p.contentType]]: p.contentType})}>
+                {p.contentType === 'gallery' ? <GalleryPost {...p} /> : null}
+                {p.contentType === 'video' ? <VideoPost {...p} /> : null}
+                {p.contentType === 'audio' ? <AudioPost {...p} /> : null}
+                {p.contentType === 'standart' ? <StandartPost {...p} /> : null}
             </div>
         )
     })
@@ -17,6 +25,15 @@ const News = (props) => {
             <div className = {style.container}>
                 {posts}     
             </div>
+        </div>
+    )
+}
+
+
+const Post = (props) => {
+    return (
+        <div >
+
         </div>
     )
 }
