@@ -16,27 +16,27 @@ const Footer = (props) => {
                 
                 <div className = {style.sites}>
                     <span className = {style.site}>
-                        <a href = 'https://vk.com/danila.shishkin' target = '_blank'>
+                        <a href = 'https://vk.com/danila.shishkin' target = '_blank' rel="noreferrer" >
                             <img src = {vk}  alt = "vk" />
                         </a>
                     </span>
                     <span className = {style.site}>
-                        <a href = 'https://www.instagram.com' target = '_blank'>
+                        <a href = 'https://www.instagram.com' target = '_blank' rel="noreferrer">
                             <img src = {instagram}  alt = "instagram" />
                         </a>
                     </span>
                     <span className = {style.site}>
-                        <a href = 'https://www.facebook.com' target = '_blank'>
+                        <a href = 'https://www.facebook.com' target = '_blank' rel="noreferrer">
                             <img src = {fb}  alt = "fb" />
                         </a>
                     </span>
                     <span className = {style.site}>
-                        <a href = '#' target = '_blank'>
-                            <img src = {gmail}  alt = "gmail" />
+                        <a href = 'https://mail.google.com/' target = '_blank' rel="noreferrer">
+                            <img src = {gmail}  alt = "gmail"  />
                         </a>
                     </span>
                     <span className = {style.site}>
-                        <a href = '#' target = '_blank'>
+                        <a href = 'https://mail.ru/' target = '_blank' rel="noreferrer">
                             <img src = {mailru}  alt = "mailru" />
                         </a>
                     </span>

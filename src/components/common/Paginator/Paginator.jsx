@@ -24,7 +24,7 @@ const Paginator = ({totalUsersCount, pageSize, currentPage, setCurrentPage, port
     let rigthPortionPageNumber = portionNumber * portionSize;   
 
 
-    let [goToPageNumber, setGoToPage] = useState(null);
+    let [goToPageNumber, setGoToPage] = useState(currentPage);
 
     const goToPage = () => {
         if(goToPageNumber <= pagesCount && goToPageNumber > 0) {
@@ -33,7 +33,7 @@ const Paginator = ({totalUsersCount, pageSize, currentPage, setCurrentPage, port
         if(goToPageNumber > pagesCount) {
             setCurrentPage(pagesCount);
         };
-        setGoToPage(null);   
+        setGoToPage(currentPage);   
     };
 
     const onHandleFocus = (event) => {

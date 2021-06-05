@@ -10,7 +10,7 @@ const VideoPost = ({id, title, text, date, hints, creator, imgUrl, srcUrl}) => {
         <div className = {style.wrapper}>
             <div className = {style.container}>
                 <div className = {style.imgContainer} >
-                    <img className = {style.postImg} src = {imgUrl} alt = 'post image'/>
+                    <img className = {style.postImg} src = {imgUrl} alt = ''/>
                 </div>
                 
                 <div className = {style.description}>

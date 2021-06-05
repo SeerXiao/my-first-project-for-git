@@ -20,7 +20,7 @@
 .fieldWrapper {
     margin: 5px auto;
     width: 100%;
-    background-color: white;
+    background-color: var(--vk-bg-color);
     border-radius: 100px; 
     text-align: center;
 }
