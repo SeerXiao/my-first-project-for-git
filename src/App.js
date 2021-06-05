@@ -18,6 +18,7 @@ import { useEffect } from 'react';
 import UsersContainer from './components/Users/UsersContainer';
 import { getAppInitialized } from './redux/appReducer/app-selectors';
 import Registration from './components/Registration/Registration';
+import Preloader from './components/common/Preloader/Preloader';
 
 
 function App(props) {
@@ -28,7 +29,7 @@ function App(props) {
 
 
   if (!props.initialized) {
-    return <div>Загрузка</div>
+    return <Preloader />
   }
   return (
     
